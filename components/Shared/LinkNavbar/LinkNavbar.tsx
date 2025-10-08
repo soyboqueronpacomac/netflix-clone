@@ -9,6 +9,6 @@ interface Props {
 
 export  function LinkNavbar({ href, name}: Props) {
   return (
-    <Link href={href} className='hover:text-gray-300 transition-all duration-300'>{name}</Link>
+    <Link href={href} className='hover:text-gray-800 hover:bg-white hover:rounded-md hover:underline-offset-2 hover:p-1 transition-all duration-300'>{name}</Link>
   )
 }
