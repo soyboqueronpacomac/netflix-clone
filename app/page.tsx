@@ -1,7 +1,9 @@
-import React from 'react'
+import { Navbar } from "@/components/Shared";
 
 export default function PageHome() {
   return (
-    <div>PageHome</div>
-  )
+    <div className="relative bg-zinc-900">
+      <Navbar />
+    </div>
+  );
 }
