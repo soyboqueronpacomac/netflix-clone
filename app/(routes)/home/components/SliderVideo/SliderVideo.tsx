@@ -30,7 +30,7 @@ export  function SliderVideo() {
                 </div>
             </div>
         </div>
-        <div className="bg-transparent bg-no-repeat bg-contain w-full opacity-100 top-auto h-[14vw] -bottom-16 absolute "/>
+        <div className="bg-transparent bg-no-repeat bg-contain w-full opacity-100 top-auto h-[14vw] -bottom-16 absolute gradientVideo"/>
       </div>
     )
   }
